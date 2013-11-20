@@ -33,18 +33,70 @@
 			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add option="-I/usr/include/at-spi2-atk/2.0" />
+			<Add option="-I/usr/include/atk-1.0" />
+			<Add option="-I/usr/include/atkmm-1.6" />
+			<Add option="-I/usr/include/cairo" />
+			<Add option="-I/usr/include/cairomm-1.0" />
+			<Add option="-I/usr/include/freetype2" />
+			<Add option="-I/usr/include/gdk-pixbuf-2.0" />
+			<Add option="-I/usr/include/gdkmm-3.0" />
+			<Add option="-I/usr/include/gio-unix-2.0/" />
+			<Add option="-I/usr/include/giomm-2.4" />
+			<Add option="-I/usr/include/glib-2.0" />
+			<Add option="-I/usr/include/glibmm-2.4" />
+			<Add option="-I/usr/include/gtk-3.0" />
+			<Add option="-I/usr/include/gtk-3.0/unix-print" />
+			<Add option="-I/usr/include/gtkmm-3.0" />
+			<Add option="-I/usr/include/harfbuzz" />
+			<Add option="-I/usr/include/libpng12" />
+			<Add option="-I/usr/include/pango-1.0" />
+			<Add option="-I/usr/include/pangomm-1.4" />
+			<Add option="-I/usr/include/pixman-1" />
+			<Add option="-I/usr/include/sigc++-2.0" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/giomm-2.4/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include" />
+			<Add option="-I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include" />
+			<Add directory="/usr/include/gtk-3.0" />
 		</Compiler>
 		<Linker>
 			<Add option="-pthread" />
 			<Add option="-lX11" />
 			<Add option="-lXext" />
 			<Add option="-lXtst" />
+			<Add option="-lgtk-3" />
+			<Add option="-lgtkmm-3.0" />
+			<Add option="-latk-1.0" />
+			<Add option="-latkmm-1.6" />
+			<Add option="-lcairo" />
+			<Add option="-lcairo-gobject" />
+			<Add option="-lcairomm-1.0" />
+			<Add option="-lgdk-3" />
+			<Add option="-lgdk_pixbuf-2.0" />
+			<Add option="-lgdkmm-3.0" />
+			<Add option="-lgio-2.0" />
+			<Add option="-lgiomm-2.4" />
+			<Add option="-lglib-2.0" />
+			<Add option="-lglibmm-2.4" />
+			<Add option="-lgobject-2.0" />
+			<Add option="-lpango-1.0" />
+			<Add option="-lpangocairo-1.0" />
+			<Add option="-lpangomm-1.4" />
+			<Add option="-lsigc-2.0" />
 		</Linker>
 		<Unit filename="../src/Coord2D.hpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="../src/EventHandler.cpp" />
 		<Unit filename="../src/EventHandler.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../src/OnScreenDisplay.hpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="../src/Quad.hpp">
